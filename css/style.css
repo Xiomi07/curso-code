@@ -1,0 +1,193 @@
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  /*fuente personalizada*/
+  @font-face {
+    font-family: "AvantGardeRegular";
+    src: url("../assets/font/ITC\ Avant\ Garde\ Gothic\ LT\ Book.ttf");
+  }
+  @font-face {
+    font-family: "AvantGardeBold";
+    src: url("../assets/font/ITC\ Avant\ Garde\ Gothic\ LT\ Demi.ttf");
+  }
+ 
+  *,*:before, *:after {
+    box-sizing: inherit;
+  }
+
+* {
+    margin: 0;
+    padding: 0;}
+
+
+
+
+/* estilos para botones*/
+
+button {
+    background-color:#13DA99;
+    border: none;
+    padding: 1.5em 3rem 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: "AvantGardeBold";
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+
+/*estilos para seccion principal*/
+.foto-bg{
+    background-image: url("../assets/img/bg-foto.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;  
+    padding: 6rem;
+    color: white;
+}
+h1{
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "AvantGardeBold";
+    padding-top: 2rem;
+}
+h2{
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "AvantGardeBold";
+    color: #577271;
+    padding: 9rem 2rem 0rem 9rem;
+
+}
+.principal-nav{
+    padding: 40px;
+}
+ul{
+    display: flex;
+}
+/*estilos para imagenes de seccion our proyects*/
+.proyecto1{
+    background-image: url("../assets/img/image1.jpg");
+}
+.proyecto2{
+    background-image: url("../assets/img/howls.jpg");
+}
+.proyecto3{
+    background-image: url("../assets/img/princess.jpg");
+}
+.proyecto{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin: 2rem;
+}
+
+
+.subtitle-proyecto{
+    color: white;
+    font-family: "AvantGardeBold";
+    font-size: 4rem;
+}
+
+/*estilo para seccion discover our team*/
+.discover{
+    background-color: #28A2A7;
+    width: 100%;
+    height: 30vh;
+}
+
+.discover-subtitle{
+    font-family: "AvantGardeBold";
+    font-size: 9rem;
+    color: white;
+}
+/*estilo para seccion imagenes ceos*/
+.ceos{
+    display: flex;
+}
+.ceo-img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+   
+}
+.ceo-titulo{
+    font-family: "AvantGardeBold";
+    font-size: 2.5rem;
+}
+.ceo-subtitulo{
+    font-family: "AvantGardeBold";
+    font-size: 1.4rem;
+}
+
+footer{
+    background-color: #01D48A;
+    font-family: "AvantGardeBold";
+}
+/* ESTILOS PAGINA ABOUT US */
+.about{
+    display: flex;
+}
+/* estilos para pagina OUR PROYECTS*/
+.proyectos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5rem;
+   
+}
+.imagenes{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../assets/img/image1.jpg");
+    background-repeat: no-repeat;
+}
+/*estilos para pagian contactp*/
+.contacto{
+    background-color: #28A2A7;
+}
+.titulocontacto{
+    color: white;
+}
+
+form{
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+
+}
+.contactoflex{
+    display: flex;
+}
+/*estilos para pagina de proyecto */
+.botones-proyecto{
+    background-color: #13DA99;
+    border: none;
+    padding: 1.5em 3rem 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: "AvantGardeBold";
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+.parrafo{
+    width: 50%;
+}
+.two-column{
+    display: flex;
+}
+.fondo-directores{
+    background-color: #28A2A7;
+    width: 100%;
+    height: 50vh;
+}
+.imagenzindex{
+    z-index: 2;
+}
+.proyectopage{
+    background-color: #F1F1F1;
+}
