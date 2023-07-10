@@ -118,10 +118,7 @@ h2{
     font-size: 1.4rem;
 }
 
-footer{
-    background-color: #01D48A;
-    font-family: "AvantGardeBold";
-}
+
 /* ESTILOS PAGINA ABOUT US */
 .about{
     display: flex;
@@ -213,3 +210,16 @@ a{
     color: black;
     font-family: "AvantGardeBold";
 }
+/*estilos footer*/
+footer{
+    background-color: #01D48A;
+    font-family: "AvantGardeBold";
+    display: flex;
+    align-items: center;
+}
+footer .proyectito-footer {
+    margin-left: auto;
+  }
+img.logo-footer{
+    width: 15%;
+  }
