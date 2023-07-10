@@ -16,13 +16,11 @@ html {
     src: url("../assets/font/ITC\ Avant\ Garde\ Gothic\ LT\ Demi.ttf");
   }
  
-  *,*:before, *:after {
-    box-sizing: inherit;
-  }
 
 * {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    box-sizing: border-box;}
 
 
 
@@ -63,12 +61,7 @@ h2{
     padding: 9rem 2rem 0rem 9rem;
 
 }
-.principal-nav{
-    padding: 40px;
-}
-ul{
-    display: flex;
-}
+
 /*estilos para imagenes de seccion our proyects*/
 .proyecto1{
     background-image: url("../assets/img/image1.jpg");
@@ -190,4 +183,33 @@ align-items: left;
 }
 .proyectopage{
     background-color: #F1F1F1;
+}
+/*estilos para navbar*/
+.nav{
+    display: flex;
+    gap: 5rem;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 3rem;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+}
+.logo{
+    padding: 2rem;
+}
+img.logo{
+    width: 70%;
+}
+a:link{
+    text-decoration:none;
+   
+}
+a{
+    color: black;
+    font-family: "AvantGardeBold";
 }
