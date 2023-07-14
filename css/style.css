@@ -105,6 +105,7 @@ h2{
 /*estilo para seccion imagenes ceos*/
 .ceos{
     display: flex;
+    justify-content: space-around;
 }
 .ceo-img{
     width:300px;
@@ -231,6 +232,8 @@ a{
     }
     .discover-subtitle{
         font-size: 4rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
     }
     .foto-bg{
         padding: 3rem;
@@ -243,6 +246,13 @@ a{
         font-size: 2rem;
         padding-top: 2rem;
     }
+    button{
+        padding: 1em 1.5rem 1rem 1.5rem;
+    }
+    }
+    .ceo-img{
+        width: 20rem;
+        height: 20rem;
     }
   
     
