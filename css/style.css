@@ -106,6 +106,7 @@ h2{
 .ceos{
     display: flex;
     justify-content: space-around;
+    
 }
 .ceo-img{
     width:300px;
@@ -215,13 +216,16 @@ a{
     color: black;
     font-family: "AvantGardeBold";
 }
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px){
     .responsive{
         grid-column: 1;
     }
     .ceos{
-        display: grid;
-        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        align-items: center;
     }
     h1  {
         font-size: 4rem;
@@ -234,6 +238,9 @@ a{
         font-size: 4rem;
         padding-top: 4rem;
         padding-left: 2rem;
+    }
+    .discover{
+        height: 40vh;
     }
     .foto-bg{
         padding: 3rem;
@@ -249,12 +256,60 @@ a{
     button{
         padding: 1em 1.5rem 1rem 1.5rem;
     }
-    }
+    
     .ceo-img{
         width: 20rem;
         height: 20rem;
     }
+    }
+@media (max-width: 768px) {
+    h1  {
+        font-size: 3rem;}
+    .foto-bg{
+        height: 50vh;
+    }
+    .ceos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+
+    }
+    .discover-subtitle {
+        font-size: 6rem;
+        padding-top: 2rem;
+    }
+    .discover{
+        height: 40vh;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        padding:2rem 3rem 0rem 2rem;
+    }
+    button{
+        padding:  1rem 1rem 1rem 1rem;
+        margin-left: 0.5rem;
+        }
+    }
+ @media (max-width: 1024px) {
+    
+
+    .ceos{
+        display: flex;
+        
+        padding-top: 2rem;
+    }
+    .discover{
+        height: 50vh;
+    }
+    
+
+
+}
+ 
   
+
     
 
 /*estilos footer*/
