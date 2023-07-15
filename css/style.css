@@ -143,6 +143,7 @@ h2{
     height: 50vh;
     background-image: url("../assets/img/image1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 /*estilos para pagian contactp*/
 .contacto{
@@ -289,6 +290,11 @@ a{
       padding: 1rem 1rem 1rem 1rem;
       margin-left: 0.5rem;
     }
+    .proyectos{
+      grid-template-columns: 1fr; /* Cambia a una columna */
+            }
+          
+    
   }
   
   @media only screen and (max-width: 1024px) {
