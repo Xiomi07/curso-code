@@ -260,6 +260,9 @@ a{
       padding: 1em 1.5rem 1rem 1.5rem;
       margin-top: 4rem;
     }
+    .proyectos{
+      margin: 2rem;
+    }
   }
   
   @media only screen and (max-width: 768px) {
@@ -292,7 +295,9 @@ a{
     }
     .proyectos{
       grid-template-columns: 1fr; /* Cambia a una columna */
-            }
+      margin: 2rem;
+         
+    }
           
     
   }
