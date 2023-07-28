@@ -30,13 +30,14 @@ button {
   margin-top: 1.5rem; }
 
 .button-proyectos {
-  background-color: red;
+  background-color: #13DA99;
   border: none;
-  padding: 1.5em 3rem 1.5rem 3rem;
+  padding: 1rem;
   font-size: 1.2rem;
   font-family: "AvantGardeBold";
   border-radius: 5px;
-  margin-top: 1.5rem; }
+  margin-top: 7.5rem;
+  margin-left: 1rem; }
 
 /*estilos para navbar*/
 .nav {
@@ -109,7 +110,8 @@ a {
   color: white;
   font-family: "AvantGardeBold";
   font-size: 4rem;
-  text-align: right; }
+  text-align: right;
+  padding-top: 4rem; }
 
 /*estilo para seccion discover our team*/
 .discover-section .discover {
@@ -119,7 +121,7 @@ a {
 
 .discover-section .discover-subtitle {
   font-family: "AvantGardeBold";
-  font-size: 9rem;
+  font-size: 12rem;
   color: white; }
 
 /*estilo para seccion imagenes ceos*/
@@ -229,10 +231,9 @@ img.logo-footer {
     height: 20vh; }
     .section-second .proyecto .subtitle-proyecto {
       font-size: 2rem; }
-      .section-second .proyecto .subtitle-proyecto .button-proyectos {
-        padding: 1rem;
-        margin-top: 10rem;
-        background-color: red; }
+  .button-proyectos {
+    margin-left: 0.5rem;
+    margin-top: 2.5rem; }
   .discover-section .discover {
     height: 35vh; }
     .discover-section .discover .discover-subtitle {
