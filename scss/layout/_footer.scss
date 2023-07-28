@@ -1,0 +1,13 @@
+/*estilos footer*/
+footer{
+    background-color: $color-footer;
+    font-family: "AvantGardeBold";
+    display: flex;
+    align-items: center;
+}
+footer .proyectito-footer {
+    margin-left: auto;
+  }
+img.logo-footer{
+    width: 15%;
+  }

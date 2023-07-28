@@ -1,0 +1,90 @@
+/*estilos para seccion principal*/
+.main-section{
+    .foto-bg{
+        background-image: url("../assets/img/bg-foto.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;  
+        padding: 6rem;
+        color: white;
+        }
+    h1{
+        font-size: 6rem;
+        font-weight: 700;
+        font-family: "AvantGardeBold";
+        padding-top: 2rem;
+        }
+}
+  /*estilos para imagenes de seccion our proyects*/
+.section-second{
+    h2{
+        font-size: 6rem;
+        font-weight: 700;
+        font-family: "AvantGardeBold";
+        color: #577271;
+        padding: 9rem 2rem 0rem 9rem;
+    }
+    .proyecto1{
+    background-image: url("../assets/img/image1.jpg");
+    }
+    .proyecto2{
+    background-image: url("../assets/img/howls.jpg");
+    }
+    .proyecto3{
+    background-image: url("../assets/img/princess.jpg");
+    }
+    .proyecto{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin: 2rem;
+    }
+}
+
+.subtitle-proyecto{
+    color: white;
+    font-family: "AvantGardeBold";
+    font-size: 4rem;
+    text-align: right;
+    
+}
+
+/*estilo para seccion discover our team*/
+.discover-section{
+    .discover{
+    background-color: #28A2A7;
+    width: 100%;
+    height: 60vh;}
+    .discover-subtitle{
+        font-family: "AvantGardeBold";
+        font-size: 9rem;
+        color: white;}
+}
+
+
+
+/*estilo para seccion imagenes ceos*/
+.ceos-section{
+    .ceos{
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .ceo-img{
+        width:100%;
+        height:auto;
+        border-radius: 50%;
+        padding: 5rem;
+        }
+        .ceo-titulo{
+        font-family: "AvantGardeBold";
+        font-size: 2.5rem;
+        text-align: center;
+        }
+        .ceo-subtitulo{
+        @extend .ceo-titulo;
+        font-size: 1.4rem;
+        }
+    }

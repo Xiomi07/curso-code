@@ -1,0 +1,30 @@
+/*estilos para navbar*/
+.nav{
+    display: flex;
+    gap: 5rem;
+    text-decoration: none;
+    list-style: none;
+    
+   
+}
+/*header{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    padding-right: 1rem;
+}*/
+.logo{
+    padding: 2rem;
+}
+img.logo{
+    width: 70%;
+}
+a:link{
+    text-decoration:none;
+   
+}
+a{
+    color: black;
+    font-family: "AvantGardeBold";
+}

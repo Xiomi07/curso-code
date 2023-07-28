@@ -1,0 +1,22 @@
+/* estilos para botones*/
+
+button {
+    background-color:$color-button;
+    border: none;
+    padding: 1.5em 3rem 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: "AvantGardeBold";
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.button-proyectos{
+    background-color: red;
+    border: none;
+    padding: 1.5em 3rem 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: "AvantGardeBold";
+    border-radius: 5px;
+    margin-top: 1.5rem;
+
+}
