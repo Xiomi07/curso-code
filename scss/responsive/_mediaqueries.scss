@@ -49,6 +49,13 @@
     padding-bottom: 2rem;
     align-items: center;
   }
+  .about{
+    display: flex;
+    flex-direction: column;
+  .imageabout{
+    width: 100%;
+  }
+  }
 }
     
 @media only screen and (max-width: 768px) {

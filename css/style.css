@@ -159,6 +159,10 @@ a {
 /* ESTILOS PAGINA ABOUT US */
 .about {
   display: flex; }
+  .about h2 {
+    font-size: 6rem; }
+  .about .parrafo1, .about .parrafo2, .about .parrafo3, .about .parrafo4 {
+    padding: 2rem; }
 
 /*estilos para pagian contactp*/
 .contacto {
@@ -248,7 +252,12 @@ img.logo-footer {
     flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    align-items: center; } }
+    align-items: center; }
+  .about {
+    display: flex;
+    flex-direction: column; }
+    .about .imageabout {
+      width: 100%; } }
 
 @media only screen and (max-width: 768px) {
   .foto-bg {

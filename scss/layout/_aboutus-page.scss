@@ -1,4 +1,13 @@
 /* ESTILOS PAGINA ABOUT US */
 .about{
     display: flex;
+    h2{
+        font-size: 6rem;
+    }
+    .parrafo1{
+        padding: 2rem;
+    }
+    .parrafo2{ @extend .parrafo1;}
+    .parrafo3{ @extend .parrafo1;}
+    .parrafo4 {@extend .parrafo1;}
 }
