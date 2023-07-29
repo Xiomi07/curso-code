@@ -2,13 +2,45 @@
 .proyectos{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 0.5rem;
+    gap: 4rem;
+    padding: 3rem;
    
 }
-.imagenes{
+.imagenes1{
     width: 100%;
     height: 50vh;
     background-image: url("../assets/img/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.subtitle-proyecto2{
+    @extend .subtitle-proyecto;
+    margin-top: 5rem;
+   
+    }
+
+.imagenes2 {
+    @extend .imagenes1;
+    background-image: url("../assets/img/princess.jpg");
+    }
+.imagenes3 {
+    @extend .imagenes1;
+    background-image: url("../assets/img/howls.jpg");
+    }
+.imagenes4{
+    @extend .imagenes1;
+    background-image: url("../assets/img/kikis.jpg");
+}
+.imagenes5{
+    @extend .imagenes1;
+    background-image: url("../assets/img/porko.jpg");
+}
+.imagenes6{
+    @extend .imagenes1;
+    background-image: url("../assets/img/totoro.jpg");
+}
+.our{
+    h2{
+        font-size: 6rem;
+    }
 }

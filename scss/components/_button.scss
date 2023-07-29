@@ -17,7 +17,11 @@ button {
     font-size: 1.2rem;
     font-family: "AvantGardeBold";
     border-radius: 5px;
-    margin-top: 7.5rem;
     margin-left: 1rem;
-
 }
+.button-proyectos2{
+    @extend .button-proyectos;
+    background-color: $color-button;
+    margin-top: 17rem;
+    margin-left: 16rem;
+    }

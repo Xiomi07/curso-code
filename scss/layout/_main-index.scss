@@ -39,8 +39,15 @@
     background-size: cover;
     background-position: center;
     height: 30vh;
+    width: 80%;
     margin: 2rem;
+    
     }
+.segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 .subtitle-proyecto{

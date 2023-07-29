@@ -29,15 +29,19 @@ button {
   border-radius: 5px;
   margin-top: 1.5rem; }
 
-.button-proyectos {
+.button-proyectos, .button-proyectos2 {
   background-color: #13DA99;
   border: none;
   padding: 1rem;
   font-size: 1.2rem;
   font-family: "AvantGardeBold";
   border-radius: 5px;
-  margin-top: 7.5rem;
   margin-left: 1rem; }
+
+.button-proyectos2 {
+  background-color: #13DA99;
+  margin-top: 17rem;
+  margin-left: 16rem; }
 
 /*estilos para navbar*/
 .nav {
@@ -104,9 +108,15 @@ a {
   background-size: cover;
   background-position: center;
   height: 30vh;
+  width: 80%;
   margin: 2rem; }
 
-.subtitle-proyecto {
+.section-second .segunda {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.subtitle-proyecto, .subtitle-proyecto2 {
   color: white;
   font-family: "AvantGardeBold";
   font-size: 4rem;
@@ -147,14 +157,36 @@ a {
 .proyectos {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 0.5rem; }
+  gap: 4rem;
+  padding: 3rem; }
 
-.imagenes {
+.imagenes1, .imagenes2, .imagenes3, .imagenes4, .imagenes5, .imagenes6 {
   width: 100%;
   height: 50vh;
   background-image: url("../assets/img/image1.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.subtitle-proyecto2 {
+  margin-top: 5rem; }
+
+.imagenes2 {
+  background-image: url("../assets/img/princess.jpg"); }
+
+.imagenes3 {
+  background-image: url("../assets/img/howls.jpg"); }
+
+.imagenes4 {
+  background-image: url("../assets/img/kikis.jpg"); }
+
+.imagenes5 {
+  background-image: url("../assets/img/porko.jpg"); }
+
+.imagenes6 {
+  background-image: url("../assets/img/totoro.jpg"); }
+
+.our h2 {
+  font-size: 6rem; }
 
 /* ESTILOS PAGINA ABOUT US */
 .about {
@@ -178,7 +210,14 @@ form {
   align-items: left; }
 
 .contactoflex {
-  display: flex; }
+  display: flex;
+  min-height: 100vh; }
+
+.input-area {
+  width: 100%; }
+
+.img-contacto {
+  height: 50vh; }
 
 /*estilos para pagina de proyecto */
 .botones-proyecto {
@@ -233,9 +272,9 @@ img.logo-footer {
     padding: 2rem 3rem 0rem 2rem; }
   .section-second .proyecto {
     height: 20vh; }
-    .section-second .proyecto .subtitle-proyecto {
+    .section-second .proyecto .subtitle-proyecto, .section-second .proyecto .subtitle-proyecto2 {
       font-size: 2rem; }
-  .button-proyectos {
+  .button-proyectos, .button-proyectos2 {
     margin-left: 0.5rem;
     margin-top: 2.5rem; }
   .discover-section .discover {
