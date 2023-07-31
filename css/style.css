@@ -19,6 +19,13 @@ body {
   font-family: "AvantGardeBold";
   src: url("../assets/font/ITC Avant Garde Gothic LT Demi.ttf"); }
 
+.mb-3 .form-control {
+  padding: 4rem !important;
+  background-color: white !important; }
+
+.allinputs {
+  width: 60%; }
+
 /* estilos para botones*/
 button {
   background-color: #13DA99;
@@ -217,7 +224,7 @@ form {
   width: 100%; }
 
 .img-contacto {
-  height: 50vh; }
+  height: 78vh; }
 
 .form2 {
   display: flex;
@@ -301,7 +308,9 @@ img.logo-footer {
     display: flex;
     flex-direction: column; }
     .about .imageabout {
-      width: 100%; } }
+      width: 100%; }
+  .form2 {
+    flex-direction: column; } }
 
 @media only screen and (max-width: 768px) {
   .foto-bg {
