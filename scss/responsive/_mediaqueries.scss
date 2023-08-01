@@ -58,14 +58,27 @@
   }
   .form2{
     flex-direction: column;
+    align-items: center;
   }
+  .titulito{
+    h2{
+      font-size: 4rem;
+    }
+  }
+  .img-contacto{
+    height: 48vh;
+  }
+  .allinputs{
+    width: 90%;
+}
 }
     
 @media only screen and (max-width: 768px) {
+  .main-section{
   .foto-bg {
-    height: 40vh;
+    height: 70vh;
       h1 {
-      font-size: 3rem;
+      font-size: 4rem;
       }
     }
   .section-second{
@@ -74,17 +87,20 @@
       padding: 2rem 3rem 0rem 2rem;
     }
   }
-  .discover {
-    height: 35vh;
-    .discover-subtitle {
-      font-size: 6rem;
-      padding-top: 4rem;
+  }
+  .discover-section{
+    .discover {
+      height: 40vh;
+      .discover-subtitle {
+        font-size: 5rem;
+        padding-top: 4rem;
       .botoncito {
         padding: 1rem 1rem 1rem 1rem;
         margin-left: 0.5rem;
         }
     }
   }
+}
   
   .ceos {
     display: flex;
@@ -94,13 +110,21 @@
     }
     
   .proyectos{
-    grid-template-columns: 1fr; /* Cambia a una columna */
+    grid-template-columns: 1fr 1fr; /* Cambia a una columna */
     margin: 2rem;
          
   }  
+  .allinputs{
+    width: 40%;
+  }
  }
 
 @media only screen and (max-width: 1024px) {
+  .main-section{
+    .foto-bg {
+      height: 70vh;
+  }
+}
   .discover {
     height: 40vh;
   }  
@@ -111,4 +135,16 @@
     display: flex;
     padding-top: 2rem;
     } 
+}
+.proyectos{
+  grid-template-columns: 1fr;
+}
+.about{
+  flex-direction: column; 
+}
+.imageabout{
+  width: 90%;
+}
+.allinputs{
+  width: 40%;
 }
