@@ -22,5 +22,5 @@ button {
 .button-proyectos2{
     @extend .button-proyectos;
     background-color: $color-button;
-  
+    @include margen1;
     }

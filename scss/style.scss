@@ -1,4 +1,5 @@
 @import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./base/reset";
 @import "./base/typo";
 @import "./components/bootstrap";
@@ -11,4 +12,3 @@
 @import "./layout/proyectpage";
 @import "./layout/footer";
 @import "./responsive/mediaqueries";
-@import "./utilities/mixins"

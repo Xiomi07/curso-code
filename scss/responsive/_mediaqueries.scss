@@ -118,6 +118,9 @@
     width: 40%;
   }
  }
+ .cardss{
+  flex-direction: column;
+ }
 
 @media only screen and (max-width: 1024px) {
   .main-section{
@@ -147,4 +150,7 @@
 }
 .allinputs{
   width: 40%;
+}
+.cardss{
+  flex-direction: row;
 }
